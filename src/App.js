@@ -1,5 +1,7 @@
+import { Global } from './styles/global';
+
 export function App() {
   return (
-    <h1>Sistema de Controle Financeiro</h1>
+    <Global />
   );
 }
