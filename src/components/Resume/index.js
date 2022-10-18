@@ -7,7 +7,7 @@ export function Resume() {
   return (
     <Container>
       <ResumeItem title="Entradas" Icon={FaRegArrowAltCircleUp} value="5000"/>
-      <ResumeItem title="Saidas" Icon={FaRegArrowAltCircleDown} value="500"/>
+      <ResumeItem title="Saídas" Icon={FaRegArrowAltCircleDown} value="500"/>
       <ResumeItem title="Total" Icon={FaDollarSign} value="4500"/>
     </Container>
   )
