@@ -1,7 +1,14 @@
-import { Global } from './styles/global';
+import { GlobalStyle } from './styles/global';
+import { Header } from './components/Header';
+import { Resume } from './components/Resume';
 
 export function App() {
   return (
-    <Global />
+    <>
+    <GlobalStyle />
+    <Header />
+    <Resume />
+    </>
+    
   );
 }
